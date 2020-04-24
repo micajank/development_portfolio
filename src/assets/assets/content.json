@@ -1,0 +1,40 @@
+{
+    "name": "Micaela Jankowski",
+    "email": "micajank@umich.edu",
+    "resume": "./assets/Jankowski-Resume.pdf",
+    "linkedInLink": "https://www.linkedin.com/in/micaela-jankowski/",
+    "githubLink": "https://github.com/micajank",
+    "brandStatement": "I am a full stack developer with experience using HTML, CSS, Javascript, React and C++ to create dynamic and efficient web applications. My ability to communicate and adapt to a constantly changing environment makes me an asset on team projects and in leadership roles. My undergraduate training in Anthropology enables me to approach challenges from multiple angles while producing curated solutions to the objectives at hand.",
+    "images": {
+        "splash": "./assets/images/splash.png",
+        "profile": "./assets/images/profile.jpg"
+    },
+    "projects": [{
+        "name": "Fishing 'n Such",
+        "liveLink": "https://micajank.github.io/Fishing_N_Such/",
+        "githubLink": "https://github.com/micajank/Fishing_N_Such/",
+        "summary": "Typhoon Fishing style game with a continuous game loop gives the illusion of fish swimming across the screen. This was my first experiece with HTML5 Canvas and I found it to be so much fun! I also used CSS3, JavaScript, and my own assets to complete this project.",
+        "skills": ["CSS - ", "HTML - ", "HTML5 Canvas - ", "JS"]
+    },
+    {
+        "name": "Green & Grow",
+        "liveLink": "https://green-and-grow.herokuapp.com/",
+        "githubLink": "https://github.com/micajank/Green_and_grow",
+        "summary": "Find and schedule events and meals that focus on sustainable living. RESTful routing app that queries the Zomato API and the Eventful API. Backend made with Node/Express, Sequelize/PostgreSQL and Javascript. Frontend created with Node/EJS, HTML, and CSS.",
+        "skills": ["CSS - ", "HTML - ", "Node - ", "JS - ", "Express - ", "RESTful routing" ]
+    },
+    {
+        "name": "No Scroll Recipes",
+        "liveLink": "https://recipe-app-29.herokuapp.com/",
+        "githubLink": "https://github.com/micajank/No_Scroll_Recipes",
+        "summary": "Recipe app that allowed users to create/find recipes without scrolling through unnecessary content. Backend made with JS, database created with MongoDB, frontend created with React.js and CSS. Users are able to save and favorite recipes, share recipes, etc via RESTful routing in this MERN app. ",
+        "skills": ["CSS - ", "React - ", "JS - ", "MongoDB - ", "MERN auth"]
+    },
+    {
+        "name": "Fam Vacation",
+        "liveLink": "",
+        "githubLink": "",
+        "summary": "Tool for collaborating and organization where users can share the burden of planning group trips. Backend made with SQLAlchemy and Flask/Python, frontend created with React.js and CSS, with a Flask authorization.",
+        "skills": ["CSS - ", "React - ", "Python - ", "SQLAlchemy - ", "Flask"]
+    }]
+}
