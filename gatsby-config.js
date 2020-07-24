@@ -3,7 +3,7 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
+    title: "Micaela Jankowski",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,8 +15,8 @@ module.exports = {
         start_url: config.pathPrefix || config.manifestStartUrl,
         background_color: config.manifestBackgroundColor,
         theme_color: config.manifestThemeColor,
-        display: config.manifestDisplay,
-        icon: config.manifestIcon, // This path is relative to the root of the site.
+        display: config.manifestDisplay
+        // icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

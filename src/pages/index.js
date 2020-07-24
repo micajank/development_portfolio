@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import myData from '../assets/assets/content.json'
-import resume from '../assets/assets/Resumé-Jankowski.pdf';
+import resume from '../assets/assets/ResumeJankowski.pdf';
 
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/assets/images/fishing.png';
-import pic2 from '../assets/assets/images/greenAndGrow.png';
+import pic2 from '../assets/assets/images/g&g_cap.png';
 import pic3 from '../assets/assets/images/noScroll.png';
+import pic4 from '../assets/assets/images/gracesite.png';
 import profilePic from '../assets/assets/images/profile.jpg';
 import config from '../../config';
 const IndexPage = () => (
@@ -133,6 +134,31 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic4} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            {myData.projects[3].name}
+          </h2>
+          <p>
+            {myData.projects[3].summary}
+            <br />
+            <div>
+              { myData.projects[3].skills}
+            </div>
+            <br />
+            <br />
+            <div>
+              <a target="_blank" href={`${myData.projects[3].liveLink}`}>See it HERE</a>
+            </div>
+            <div>
+              <a target="_blank" href={`${myData.projects[3].githubLink}`}></a>
+            </div>
+          </p>
+        </div>
+      </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
@@ -142,11 +168,14 @@ const IndexPage = () => (
           <br />
           <h2>A bit more about me</h2>
           <p>
-            In 2016, I took my first computer science class at the University of Michigan while persuing my degree in Anthropology. I was originally taking the class to fulfill a requirement for my major, but after a few weeks I was completely hooked. I enjoyed the challenges and the hard work that each project demanded. I loved the break through feeling when I would finally locate the error that was throwing a seg fault in my code. And there was nothing like the feeling of completing a project that passed the entire test suite.
+            In <span className="highlight">2016</span>, I took my first computer science class at the <span className="highlight">University of Michigan</span> while persuing my degree in Anthropology. I was originally taking the class to fulfill a requirement for my major, but after a few weeks I was completely hooked. 
             <br />
-            Although I was passionate about both fields of study, after graduating in August of 2019, I decided to dedicate myself to becoming a software developer. 
+            I enjoyed the <span className="highlight">challenges and hard work</span> that each project demanded. I loved the break through feeling when I would finally locate an error that was throwing a seg fault in my code. And there was nothing like the feeling of completing a project that passed the entire <span className="highlight">test suite</span>.
             <br />
-            I moved to Seattle in January of 2020 to attend a 13 week Software Engineering Immersive at General Assembly. While there, I learned many industry tools and languages through personal projects, homeworks, and labs along with my 12 cohort members. Post cohort, I am continuing to learn and grow my skills through projects, updating past works, and algorithm and data structures studies. 
+            Although I was passionate about both fields of study, after graduating in <span className="highlight">August of 2019</span>, I decided to dedicate myself to becoming a <span className="highlight">software developer</span>. 
+            <br />
+            I moved to Seattle in <span className="highlight">January 2020</span> to attend a <span className="highlight">13 week Software Engineering Immersive at General Assembly</span>. While there, I learned many <span className="highlight">industry tools and languages</span> through personal projects, homeworks, and labs along with my 12 cohort members. Post cohort, I am continuing to learn and grow my skills through projects, updating past works, and algorithm and data structures studies. 
+            <br />
             <br />
             I am currently looking for full time work in the Seattle area.
           </p>

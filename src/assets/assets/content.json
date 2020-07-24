@@ -1,7 +1,7 @@
 {
     "name": "Micaela Jankowski",
     "email": "micajank@umich.edu",
-    "resume": "./assets/Jankowski-Resume.pdf",
+    "resume": "./assets/ResumeJankowski.pdf",
     "linkedInLink": "https://www.linkedin.com/in/micaela-jankowski/",
     "githubLink": "https://github.com/micajank",
     "brandStatement": "I am a full stack developer with experience using HTML, CSS, Javascript, React and C++ to create dynamic and efficient web applications. My ability to communicate and adapt to a constantly changing environment makes me an asset on team projects and in leadership roles. My undergraduate training in Anthropology enables me to approach challenges from multiple angles while producing curated solutions to the objectives at hand.",
@@ -29,6 +29,13 @@
         "githubLink": "https://github.com/micajank/No_Scroll_Recipes",
         "summary": "Recipe app that allowed users to create/find recipes without scrolling through unnecessary content. Backend made with JS, database created with MongoDB, frontend created with React.js and CSS. Users are able to save and favorite recipes, share recipes, etc via RESTful routing in this MERN app. ",
         "skills": ["CSS - ", "React - ", "JS - ", "MongoDB - ", "MERN auth"]
+    },
+    {
+        "name": "Grace K Beck",
+        "liveLink": "https://gracekbeck.com",
+        "githubLink": "",
+        "summary": "Proffesion website for photographer and designer, Grace Beck, located in Minneapolis, MN. Front-end React app with EmailJS for emailing Ms. Beck via the contact page.",
+        "skills": ["CSS - ", "React - ","EmailJS - ", "JS "]
     },
     {
         "name": "Fam Vacation",
