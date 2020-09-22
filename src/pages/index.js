@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import myData from '../assets/assets/content.json'
 import resume from '../assets/assets/ResumeJankowski.pdf';
+import ATSresume from '../assets/assets/JankowskiResume.pdf';
 
 import Layout from '../components/Layout';
 
@@ -189,6 +190,7 @@ const IndexPage = () => (
             <h3>Links</h3>
             <p>
               <a target="noopener" href={`${resume}`}>Resume</a> | 
+              <a target="noopener" href={`${ATSresume}`}>ATS Resume</a> | 
               <a target="noopener" href={`${myData.linkedInLink}`}> LinkedIn</a> | 
               <a target="noopener" href={`${myData.githubLink}`}> Github</a>
             </p>
